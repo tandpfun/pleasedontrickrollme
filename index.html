@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+</style>
+
+<script>
+  function randomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+  }
+  function random() {
+    let int = randomInt(1)
+    if (int) {
+      window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    } else {
+      window.location.href = "https://pleasedontrickroll.me/congrats"
+    }
+  }
+<\script>
+
+</head>
+<body>
+
+<center>
+  <h1>Woah! You shouldn't have clicked on this link!<\h1>
+  <h2>Well, I guess you'll have to click on the button below and see where it takes you...<\h2>
+  <button class="button button2" onClick="random()">Please don't rickroll me!</button>
+  <p>I know my code sucks please dont cancel me<\p>
+</center>
+
+</body>
+</html>
